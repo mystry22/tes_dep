@@ -9,7 +9,7 @@ app.get('/',(req,res)=>{
     res.json('all good')
 })
 
-const PORT = 8900;
+const PORT = 4070;
 
 app.listen(PORT, ()=>{
     console.log('listening to port ' + PORT);
